@@ -5,11 +5,3 @@
 
 # 카테고리
 + [마크다운언어]()
-+ [네이버1](https://www.naver.com)
-+ [네이버2][naverlink]
-
-[naverlink]: https://www.naver.com
-
-[Google][googlelink]
-
-[googlelink]: https://google.com "Go google"
