@@ -1,3 +1,4 @@
 # Sorting Algorithm
 
-[BubbleSort](/Algorithm/Sort/BubbleSort)
+[Bubble Sort](/Algorithm/Sort/BubbleSort)
+[Insert Sort](/Algorithm/Sort/InsertSort)
