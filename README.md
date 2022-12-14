@@ -4,4 +4,4 @@
 + test
 
 # 카테고리
-+ [마크다운언어](./MarkDown)
++ [마크다운언어](/MarkDown)
