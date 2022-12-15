@@ -49,7 +49,7 @@ Bubble Sort의 기본적인 구조는 가장 첫번째 배열에서 시작해서
 
 ### Bubble Sort Code 구현(c++)
 
-```
+``` cpp
 //백준 2750번
 #include <iostream> 
 using namespace std;
