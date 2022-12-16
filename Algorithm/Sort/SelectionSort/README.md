@@ -1,3 +1,5 @@
 # Selection Sort
 
-## Selection Sort란
+## Selection Sort란?
+배열을 정렬할 때 순서는 정해져있고 정해진 배열의 순서(index)에 어떤 값을 넣을지 선택을 하는 정렬이다. 배열의 index를 오름차순 혹은 내림차순으로 이동하며 남은 배열 중 가장 큰 값 혹은 가장 작은 값을 선택하여 대입한다.
+
