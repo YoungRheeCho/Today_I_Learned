@@ -51,7 +51,7 @@ Insert Sort는 배열의 현재 위치 이전의 배열들은 모두 `이미 정
 
 ``` cpp
 //백준 2750번
-#include <iostream> 
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -60,26 +60,27 @@ int main() {
 
 	cin >> N;
 	int a[1000];
+
 	for (int i = 0; i < N; i++) {
 		cin >> a[i];
 	}
 
-	for (int i = N-1; i >=  1; i--) {
-		for (int j = 0; j < i; j++) {
-			if (a[j] > a[j + 1]) {
+	for (int i = 1; i < N; i++) {
+		for (int j = i; j > 0; j--) {
+			check = 0;
+			if (a[j] < a[j - 1]) {	//배열의 이전 index에 들어있는 수와 비교
 				int temp = a[j];
-				a[j] = a[j + 1];
-				a[j + 1] = temp;
-				check = 1;
+				a[j] = a[j - 1];
+				a[j - 1] = temp;
+				check = 1;	// 자리를 바꿨으면 다음 숫자와도 비교를 해야함
 			}
+			if (!check)	// 자리가 바뀌지 않았으면 자신의 자리에 삽입이 된 것이므로 반복문을 탈출
+				break;
 		}
-		if (!check) //이미 정렬이 완료되어 있을 경우에 루프를 탈출한다
-			break;
-		check = 0;
 	}
 
 	for (int i = 0; i < N; i++) {
-		cout << a[i] << endl;
+		cout << a[i] << " ";
 	}
 
 }
