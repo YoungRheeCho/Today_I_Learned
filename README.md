@@ -3,10 +3,10 @@
 공부한 것들 정리
 
 # 참고
-+ [마크다운언어](/MarkDown)
++ [마크다운언어](/MarkDown/README.md)
 
-# 카테고리
-+ [Language](/Language)
-+ [Algorithm](/Algorithm)
-+ [Engine](/Engine)
-+ [Backjoon](/BackJoon)
+# Category
++ [Language](/Language/README.md)
++ [Algorithm](/Algorithm/README.md)
++ [Engine](/Engine/README.md)
++ [Backjoon](/BackJoon/README.md)
