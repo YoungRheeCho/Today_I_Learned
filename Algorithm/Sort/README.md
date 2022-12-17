@@ -8,7 +8,7 @@ A sorting algorithm is a method for reorganizing a large number of items into a 
 * [Bubble Sort](/Algorithm/Sort/BubbleSort)
 * [Selection Sort](/Algorithm/Sort/SelectionSort)
 * [Insert Sort](/Algorithm/Sort/InsertSort)
-* [Shell Sort](/Algorithm/Sort/BubbleSort)
+* [Shell Sort](/Algorithm/Sort/ShellSort)
 
 ### O(N log N)
 * [Quick Sort](/Algorithm/Sort/BubbleSort)
