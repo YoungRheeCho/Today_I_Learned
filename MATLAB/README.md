@@ -1,5 +1,6 @@
 # MATLAB 문법 기초
 
+* [자료형](/MATLAB/DataType.md)
 * [입출력](/MATLAB/InOutput.md)
 
 ### Step 1. 입출력
