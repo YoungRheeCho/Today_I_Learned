@@ -2,6 +2,7 @@
 
 * [자료형](/MATLAB/DataType.md)
 * [입출력](/MATLAB/InOutput.md)
+* [Debug](/MATLAB/Debug/readRlrMonthly.md)
 
 ### Step 1. 입출력
 
