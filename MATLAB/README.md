@@ -1,6 +1,6 @@
 # MATLAB 문법 기초
 
-* [입출력](MATLAB/InOutput.md)
+* [입출력](/MATLAB/InOutput.md)
 
 ### Step 1. 입출력
 
