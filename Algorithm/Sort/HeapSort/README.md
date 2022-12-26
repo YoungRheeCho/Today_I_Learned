@@ -56,7 +56,7 @@ public:
 	void swapDown(int parent); //위에서 아래로 내려가며 heapify를 진행
 	int get();	//root node를 delete
 	bool empty();
-	void show();	//배열에 입력된 숫자를
+	void show();	//배열에 입력된 숫자를 
 
 };
 
