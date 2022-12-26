@@ -1,4 +1,5 @@
-```
+``` cpp
+//백준 2751
 #include <iostream>
 #include <vector>
 using namespace std;
