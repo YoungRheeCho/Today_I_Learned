@@ -36,7 +36,7 @@ insert와 delete의 예시는 다음과 같다.
 + delete
 ![delete](https://user-images.githubusercontent.com/119858743/209536044-082626df-64a5-4e6b-bfc1-bd86eeeafdc7.png)
 
-### Heap Sort 코드 구현
+### Heap Sort 코드 구현()
 
 ``` cpp
 //백준 2751
