@@ -44,7 +44,7 @@ insert와 delete의 예시는 다음과 같다.
 #include <vector>
 using namespace std;
 
-class heap {
+class heap {	//heap 자료구조를 구현한 클래스
 private:
 
 	vector<int> heap_tr;
@@ -52,11 +52,11 @@ private:
 public:
 	heap();
 	void insert(int a);
-	void swapUp(int index);
-	void swapDown(int parent);
-	int get();
+	void swapUp(int index);	//아래에서 위로 올라오며 heapify를 진행
+	void swapDown(int parent); //위에서 아래로 내려가며 heapify를 진행
+	int get();	//root node를 delete
 	bool empty();
-	void show();
+	void show();	//배열에 입력된 숫자를
 
 };
 
