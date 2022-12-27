@@ -118,3 +118,5 @@ int main() {
 }
 
 ```
+
+> ### [reference](https://8iggy.tistory.com/123)
