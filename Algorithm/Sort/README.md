@@ -14,6 +14,7 @@ A sorting algorithm is a method for reorganizing a large number of items into a 
 * [Quick Sort](/Algorithm/Sort/BubbleSort)
 * [Merge Sort](/Algorithm/Sort/SelectionSort)
 * [Heap Sort](/Algorithm/Sort/HeapSort)
+* [Counting Sort](/Algorithm/Sort/CountingSort)
 
 ---
 
