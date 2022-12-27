@@ -34,7 +34,7 @@
 ![counting sort](https://user-images.githubusercontent.com/119858743/209636019-9ca78209-a4f3-4f93-a349-c85c8345ac29.png)
 
 > c++ 코드
-```
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
