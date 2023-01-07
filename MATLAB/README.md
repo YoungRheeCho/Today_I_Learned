@@ -1,5 +1,5 @@
 # MATLAB 문법 기초
-
+* [프로그래밍 배경지식](/MATLAB/ProgrammingBackGround.md)
 * [자료형](/MATLAB/DataType.md)
 * [입출력](/MATLAB/InOutput.md)
 * [Debug](/MATLAB/Debug/readRlrMonthly.md)
