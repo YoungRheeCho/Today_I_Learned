@@ -22,5 +22,5 @@
 
 ![아스키테이블](https://user-images.githubusercontent.com/119858743/211155048-e96810fc-fbeb-4a18-8f44-9e106bdc07ad.png)
 
-[➝chapter2](https://github.com/YoungRheeCho/Today_I_Learned/edit/main/MATLAB/ProgrammingBackGround.md)
+[➝chapter2](/MATLAB/ProgrammingBackGround2.md)
 
