@@ -46,7 +46,7 @@ a_ch = 'a';
 b_ch = 'b';
 c_ch = 'c';
 ```
-매트랩에서는 변수선언을 할 때 변수만 따로 선언할 수 없고, 반드시 선언과 함께 데이터를 같이 넣어주어야 한다.
+매트랩에서는 변수선언을 할 때 변수만 따로 선언할 수 없고, 반드시 선언과 함께 데이터를 같이 넣어주어야 합니다.
 
 * [➝Chapter1 바로가기](/MATLAB/ProgrammingBackGround.md)
 * [➝Chapter3 바로가기](/MATLAB/ProgrammingBackGround3.md)
