@@ -98,7 +98,7 @@ if isnumeric(x)
     fprintf('zero\n');
   end
 else
-  fprintf('string');
+  fprintf('string\n');
 end
 ```
 * [➝Chapter1 바로가기](/MATLAB/ProgrammingBackGround.md)
