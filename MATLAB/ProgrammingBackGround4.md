@@ -89,7 +89,7 @@ else는 if와 else if 모두 적용되지 않을 때, 실행되는 코드블럭�
 ```
 x = input('enter a number');
 
-if
+if isnumeric(x)
   if x > 0
     fprintf('positive\n');
   elseif x < 0
