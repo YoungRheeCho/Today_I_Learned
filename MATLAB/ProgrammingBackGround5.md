@@ -1,78 +1,158 @@
-# 5. 반복문
-반복문은 입력된 조건을 검사하여, 반복문으로 작성된 코드블럭 안의 내용들을 계속해서 실행하는 문장을 이야기합니다. 반복문은 크게 **for문**과 **while문**으로 나눌 수 있고 예시는 다음과 같습니다.
+# 5. 조건문
+> 조건문이란 특정 조건이 주어졌을 때 어떤 동작을 수행하도록 사용되는 문장입니다. 조건문을 사용하는 방법은 다음과 같은 방법들이 있습니다.
 
-### 1. for문
-
-매트랩에서는 일반적으로 알려진 언어들에서 반복문으로 사용하는 for문과는 다르게 조건을 검사하지 않고, foreach문과 흡사하게 배열에 저장된 값들을 처음부터 끝까지 하나씩 변수에 넣으며 배열 혹은 행렬에 들어있는 원소의 갯수만큼 반복문을 시행합니다. 예시는 다음과 같습니다.
+### 1. if - else문
 ```
-%예제 1
-for x = 1:10
-    fprintf('hello\n');
-end
-
-%--------------------------
-%예제 2
-for x = 'hello'
-    fprintf("%c",x);
-end
-
-fprintf("\n");
-```
-두 예제 모두 배열에 저장된 값들을 하나씩 x에 대입하며 코드블럭 안의 내용들을 반복해서 시행을 하고 있습니다. 첫 번째 예제에서는 x에 1부터 10까지 정수들을 하나씩 넣으면서 총 10번의 반복을 할 것이고 그 결과로 hello라는 문장이 총 10번이 출력됩니다. 두 번째 예제에서는 x에 'hello'라는 문자 배열이 있고 h부터 순서대로 e, l, l, o를 하나씩 입력하며 이를 출력합니다.
-
-### 2. while문
-앞에서 본 for문과는 다르게 while문에는 조건이 들어간다. 즉, while문에 입력된 조건이 참이라면 while문 안에 있는 코드들이 실행이 되고 거짓이라면 while문이 더 이상 실행되지 않고 while문 이후의 코드들이 실행될 것이다. 예시는 다음과 같습니다.
-```
-i = input('enter a number to repeat: ');
-x = 0;
-
-while x < i
-    fprintf('hello world!');
-    x = x + 1;
+if true
+  fprintf('true');
 end
 ```
-위 예제는 입력 받은 숫자만큼 반복문을 시행하여 hello world를 출력하는 예제입니다. x = 0부터 시작하여, 매 반복마다 x에 1을 더하고 만약 x가 i보다 작아진다면 반복문을 탈출합니다. 반복문이 돌 때 코드의 실행하는 순서는 다음과 같습니다.
+예시와 같이 if와 end를 통해 조건문이 실행할 동작들의 범위를 정할 수 있고, 이 안에는 if 옆에 선언되어 있는 조건에 의해 특정 조건에서만 코드 블록 안의 동작들을 수행합니다.
+조건은 무조건 true 또는 false 여야 하므로 조건을 넣는 선언부에는 항상 true와 false를 출력하는 [함수]()나 조건 연산자를 통해 true 또는 false가 와야 합니다. 하지만 조건에 true나 false가 아니라 다른 숫자가 와도 기본적으로 0을 제외한 숫자는 true로 인식하기 때문에, 다음과 같은 방식으로도 조건을 설정할 수 있습니다.
 
-![loopEx](https://user-images.githubusercontent.com/119858743/211826648-33eeaaab-8f60-4ff0-ad91-7ac03ecb43a7.PNG)
-
-### 3. 이중 루프
-조건문이 중첩해서 사용이 가능했던 것처럼  반복문 또한 중첩을 해서 사용이 가능합니다. 예시는 다음과 같습니다.
+##### if 예시
 ```
-for i = 1:10
-    for j = 1:i
-        fprintf('*');
+if 1  %true
+  fprintf('hello world');
+end
+
+if -1 %true
+  fprintf('hello world');
+end
+
+if 0.1 %true
+  fprintf('hello world');
+end
+
+a = 1;
+if a  %true
+  fprintf('hello world');
+end
+
+if 0  %false
+  fprintf('hello world');
+end
+
+if ~false %true
+  fprintf('hello world');
+end
+
+if ~true %false
+  fprintf('hello world');
+end
+```
+
+##### else if 예시
+```
+input x = 'enter a number: ';
+
+% 항상 if 출력
+if x > 1
+  fprintf('if\n');
+elseif x > 3
+  fprintf('else if\n');
+end
+
+%조건에 따라 출력
+if x > 1
+  fprintf('if\n');
+elseif x < 0
+  fprintf('else if\n');
+end
+
+
+if x > 1
+  fprintf('if\n');
+elseif x < 0
+  fprintf('else if\n');
+end
+```
+else if는 if문의 조건이 false가 되었을 때 다음으로 조건을 확인하는 구문입니다. 따라서 if가 true이면 else if문은 보지도 않고 건너뛰는 것이죠. 이 때문에 첫번째 예제처럼 조건문이 작성되었다면 그건 아마도 잘못된 조건문일 것입니다.
+
+##### else 예시
+```
+input x = 'enter a number: ';
+
+if x > 10
+  fprintf('if\n');
+elseif x < 0
+  fprintf('else if\n');
+else
+  fprintf('else\n');
+end
+```
+else는 if와 else if 모두 적용되지 않을 때, 실행되는 코드블럭입니다. 무조건 조건문에 따라서 반드시 하나는 실행되어야 한다면, else를 써야만 입력값의 모든 범위를 커버할 수 있습니다.
+
+### 2. 중첩 if문
+조건문 안에 조건문을 사용하면 어떻게 될까요? 조건문 안에서 다시 한번 조건 판단하는 동작이 실행될 것입니다. 간단히는 논리연산자를 사용하여 조건을 중첩시킬 수 있는 것을 저번 챕터에서 확인했습니다. 하지만 조건이 많이 세분화가 되는 경우에는 조건문을 중첩해서 사용하는 것이 편할 때가 많습니다. 중첩 조건문의 예시는 다음과 같습니다.
+
+```
+x = input('enter a number: ',"s");
+a = 0;
+isDigit = true;
+length = strlength(x);
+isNegative = false;
+
+for i = 1:length
+    if cell2mat(extract(x,i)) == '-'
+        isNegative = true;
+        continue;
     end
-    fprintf('\n');
-end
-```
-위 예제의 출력값은
-```
-*
-**
-***
-****
-*****
-******
-*******
-********
-*********
-**********
-```
-입니다. for문으로 작성된 코드를 while문으로 바꿔서 작성해보세요. while문으로 작성된 코드는 다음 챕터에서 공개하겠습니다.
 
-### 4. 무한 루프
-while문처럼 조건을 통해 반복을 할지 말지 결정을 하는 반복문의 경우에 조건이 항상 true라면 영원히 반복을 시행하게 됩니다. 예시는 다음과 같지만 **시행하지 마시길 바랍니다.**
-```
-while true
-    fprintf('hello world forever!\n');
+    if x(i)-'0'<10 && x(i)-'0'>=0
+        a = a + (cell2mat(extract(x,i))-'0')*(10^(length-i));
+        continue;
+    else
+        isDigit = false;
+        break;
+    end
+end
+
+if isNegative&&isDigit
+    a = a*(-1);
+end
+
+%------------------------------------------------------------
+
+if isDigit
+    if a > 0
+        fprintf('positive!\n');
+    elseif a < 0
+        fprintf('negative!\n');
+    else
+        fprintf('zero!\n');
+    end
+else
+    fprintf('Error: You should enter a number!\n');
 end
 ```
-이처럼 영원히 반복문을 도는 경우에는 반복문을 어떻게 제어해야 할까요? 다음 챕터에서는 반복문을 제어하는 분기문에 대해서 이야기 하겠습니다.
+
+위 예시는 입력받은 숫자가 정수인지 문자열인지를 판단하는 코드의 예시로, 절취선 아래의 중첩 if문을 조건들을 중첩한 형태로 바꿀 수도 있지만, 편의상 그리고 코드를 읽는 사람도 편하도록 조건문 안에 조건문을 쓰는 경우도 많습니다.
+
+### 3. Switch-Case문
+
+switch-case문은 변수에 정해진 값이 들어올 때 사용하면 코드를 읽을 때 쉬워지기 때문에 종종 쓰이는 조건문의 유형입니다. if문을 쓰는 것과 별 차이는 없지만 코드를 보기 쉽게 짤 때는 매우 유용할 수 있습니다. 예시는 다음과 같습니다.
+```
+A = [10 20 30 40 147 28 48];
+x = A(randi([1 3],1));
+
+switch x
+    case 10
+        fprintf('it is %d\n',10);
+    case 20
+        fprintf('it is %d\n',20);
+    case 30
+        fprintf('it is %d\n',30);
+     otherwise
+        fprintf('i dont know..\n');
+end
+```
+위의 예시는 a의 배열에서 숫자를 랜덤으로 선택한 후 case마다 출력을 다르게 한 것 입니다. x에 저장될 수 있는 값은 A의 행렬에 존재하는 숫자로 한정적이기 때문에 다음과 같이 작성할 수 있는 것입니다. 여러번 강조 했듯이, if문과 다른 점은 없으나 코드를 읽기 쉽게 쓰기 위해서 **정해진 값 중에서 입력이 랜덤하게 들어올 때** 사용합니다.
 
 * [➝Chapter1(프로그래밍이란?) 바로가기](/MATLAB/ProgrammingBackGround.md)
-* [➝Chapter2(자료형과 변수) 바로가기](/MATLAB/ProgrammingBackGround2.md)
-* [➝Chapter3(연산자) 바로가기](/MATLAB/ProgrammingBackGround3.md)
-* [➝Chapter4(조건문) 바로가기](/MATLAB/ProgrammingBackGround4.md)
-* [➝Chapter6(분기문) 바로가기](/MATLAB/ProgrammingBackGround6.md)
-* [➝Chapter7(입출력) 바로가기](/MATLAB/ProgrammingBackGround7.md)
+* [➝Chapter2(입출력) 바로가기](/MATLAB/ProgrammingBackGround2.md)
+* [➝Chapter3(자료형과 변수) 바로가기](/MATLAB/ProgrammingBackGround3.md)
+* [➝Chapter4(연산자) 바로가기](/MATLAB/ProgrammingBackGround4.md)
+* [➝Chapter6(반복문) 바로가기](/MATLAB/ProgrammingBackGround6.md)
+* [➝Chapter7(분기문) 바로가기](/MATLAB/ProgrammingBackGround7.md)
 * [➝Chapter8(함수) 바로가기](/MATLAB/ProgrammingBackGround8.md)
