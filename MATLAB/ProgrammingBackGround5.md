@@ -44,10 +44,10 @@ end
 ```
 이처럼 영원히 반복문을 도는 경우에는 반복문을 어떻게 제어해야 할까요? 다음 챕터에서는 반복문을 제어하는 분기문에 대해서 이야기 하겠습니다.
 
-* [➝Chapter1 바로가기](/MATLAB/ProgrammingBackGround.md)
-* [➝Chapter2 바로가기](/MATLAB/ProgrammingBackGround2.md)
-* [➝Chapter3 바로가기](/MATLAB/ProgrammingBackGround3.md)
-* [➝Chapter4 바로가기](/MATLAB/ProgrammingBackGround4.md)
-* [➝Chapter6 바로가기](/MATLAB/ProgrammingBackGround6.md)
-* [➝Chapter7 바로가기](/MATLAB/ProgrammingBackGround7.md)
-* [➝Chapter8 바로가기](/MATLAB/ProgrammingBackGround8.md)
+* [➝Chapter1(프로그래밍이란?) 바로가기](/MATLAB/ProgrammingBackGround.md)
+* [➝Chapter2(자료형과 변수) 바로가기](/MATLAB/ProgrammingBackGround2.md)
+* [➝Chapter3(연산자) 바로가기](/MATLAB/ProgrammingBackGround3.md)
+* [➝Chapter4(조건문) 바로가기](/MATLAB/ProgrammingBackGround4.md)
+* [➝Chapter6(분기문) 바로가기](/MATLAB/ProgrammingBackGround6.md)
+* [➝Chapter7(입출력) 바로가기](/MATLAB/ProgrammingBackGround7.md)
+* [➝Chapter8(함수) 바로가기](/MATLAB/ProgrammingBackGround8.md)
