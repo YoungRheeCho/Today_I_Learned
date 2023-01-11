@@ -48,10 +48,10 @@ c_ch = 'c';
 ```
 매트랩에서는 변수선언을 할 때 변수만 따로 선언할 수 없고, 반드시 선언과 함께 데이터를 같이 넣어주어야 합니다.
 
-* [➝Chapter1 바로가기](/MATLAB/ProgrammingBackGround.md)
-* [➝Chapter3 바로가기](/MATLAB/ProgrammingBackGround3.md)
-* [➝Chapter4 바로가기](/MATLAB/ProgrammingBackGround4.md)
-* [➝Chapter5 바로가기](/MATLAB/ProgrammingBackGround5.md)
-* [➝Chapter6 바로가기](/MATLAB/ProgrammingBackGround6.md)
-* [➝Chapter7 바로가기](/MATLAB/ProgrammingBackGround7.md)
-* [➝Chapter8 바로가기](/MATLAB/ProgrammingBackGround8.md)
+* [➝Chapter1(프로그래밍이란?) 바로가기](/MATLAB/ProgrammingBackGround.md)
+* [➝Chapter3(연산자) 바로가기](/MATLAB/ProgrammingBackGround3.md)
+* [➝Chapter4(조건문) 바로가기](/MATLAB/ProgrammingBackGround4.md)
+* [➝Chapter5(반복문) 바로가기](/MATLAB/ProgrammingBackGround5.md)
+* [➝Chapter6(분기문) 바로가기](/MATLAB/ProgrammingBackGround6.md)
+* [➝Chapter7(입출력) 바로가기](/MATLAB/ProgrammingBackGround7.md)
+* [➝Chapter8(함수) 바로가기](/MATLAB/ProgrammingBackGround8.md)
