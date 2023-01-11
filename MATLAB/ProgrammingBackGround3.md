@@ -50,7 +50,6 @@ c_ch = 'c';
 
 * [➝Chapter1(프로그래밍이란?) 바로가기](/MATLAB/ProgrammingBackGround.md)
 * [➝Chapter2(입출력) 바로가기](/MATLAB/ProgrammingBackGround2.md)
-* [➝Chapter3(자료형과 변수) 바로가기](/MATLAB/ProgrammingBackGround3.md)
 * [➝Chapter4(연산자) 바로가기](/MATLAB/ProgrammingBackGround4.md)
 * [➝Chapter5(조건문) 바로가기](/MATLAB/ProgrammingBackGround5.md)
 * [➝Chapter6(반복문) 바로가기](/MATLAB/ProgrammingBackGround6.md)
