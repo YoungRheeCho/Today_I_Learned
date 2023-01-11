@@ -35,6 +35,15 @@ end
 
 ![loopEx](https://user-images.githubusercontent.com/119858743/211826648-33eeaaab-8f60-4ff0-ad91-7ac03ecb43a7.PNG)
 
+### 3. 무한 루프
+while문처럼 조건을 통해 반복을 할지 말지 결정을 하는 반복문의 경우에 조건이 항상 true라면 영원히 반복을 시행하게 됩니다. 예시는 다음과 같지만 **시행하지 마시길 바랍니다.**
+```
+while true
+    fprintf('hello world forever!\n');
+end
+```
+이처럼 영원히 반복문을 도는 경우에는 반복문을 어떻게 제어해야 할까요? 다음 챕터에서는 반복문을 제어하는 분기문에 대해서 이야기 하겠습니다.
+
 * [➝Chapter1 바로가기](/MATLAB/ProgrammingBackGround.md)
 * [➝Chapter2 바로가기](/MATLAB/ProgrammingBackGround2.md)
 * [➝Chapter3 바로가기](/MATLAB/ProgrammingBackGround3.md)
