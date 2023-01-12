@@ -99,7 +99,7 @@ str = input(prompt,"s");
 fprintf("%d\n", x);
 fprintf("%s\n", str);
 ```
-input의 소괄호 안에 들어가는 값은 총 두가지로 하나는 입력을 받을 때 명령창에 띄울 메시지와 입력을 받는 데이터의 자료형입니다. 두 번째 매개변수에 아무것도 작성하지 않으면 기본적인 변수 선언을 할 때와 같이 자동으로 자료형이 정해지지만 문자열을 입력할 때는 **"s"**를 붙여줘야 합니다.
+input의 소괄호 안에 들어가는 값은 총 두가지로 하나는 입력을 받을 때 명령창에 띄울 메시지와 입력을 받는 데이터의 자료형입니다. 두 번째 매개변수에 아무것도 작성하지 않으면 기본적인 변수 선언을 할 때와 같이 자동으로 자료형이 정해지지만 문자열을 입력할 때는 "**s**"를 붙여줘야 합니다.
 * [➝Chapter1(프로그래밍이란?) 바로가기](/MATLAB/ProgrammingBackGround.md)
 * [➝Chapter2(자료형과 변수) 바로가기](/MATLAB/ProgrammingBackGround2.md)
 * [➝Chapter4(연산자) 바로가기](/MATLAB/ProgrammingBackGround4.md)
