@@ -89,6 +89,17 @@ fprintf("100%%") % 문자열 안에 %를 두개 사용하면 %를 하나 출력�
 ```
 
 기호에서는 주로 \n을 거의 사용하기 때문에 **\n은 반드시 기억하시길 바랍니다.**
+
+# 2.입력
+입력은 프로그램의 실행 중에 사용자로부터 받는 입력을 이야기합니다. 매트랩에서는 사용자의 입력을 요청하는 함수로 input함수를 사용하는데 예시는 다음과 같습니다.
+```
+prompt = "Enter a String: "
+x = input('Enter a Number: ');
+str = input(prompt,"s");
+fprintf("%d\n", x);
+fprintf("%s\n", str);
+```
+input의 소괄호 안에 들어가는 값은 총 두가지로 하나는 입력을 받을 때 명령창에 띄울 메시지와 입력을 받는 데이터의 자료형입니다. 두 번째 매개변수에 아무것도 작성하지 않으면 기본적인 변수 선언을 할 때와 같이 자동으로 자료형이 정해지지만 문자열을 입력할 때는 **"s"**를 붙여줘야 합니다.
 * [➝Chapter1(프로그래밍이란?) 바로가기](/MATLAB/ProgrammingBackGround.md)
 * [➝Chapter2(자료형과 변수) 바로가기](/MATLAB/ProgrammingBackGround2.md)
 * [➝Chapter4(연산자) 바로가기](/MATLAB/ProgrammingBackGround4.md)
@@ -96,3 +107,4 @@ fprintf("100%%") % 문자열 안에 %를 두개 사용하면 %를 하나 출력�
 * [➝Chapter6(반복문) 바로가기](/MATLAB/ProgrammingBackGround6.md)
 * [➝Chapter7(분기문) 바로가기](/MATLAB/ProgrammingBackGround7.md)
 * [➝Chapter8(함수) 바로가기](/MATLAB/ProgrammingBackGround8.md)
+* [참고(MATLAB사이트) 바로가기](https://kr.mathworks.com/help/matlab/matlab_prog/formatting-strings.html)
