@@ -21,8 +21,8 @@
 
 ![아스키테이블](https://user-images.githubusercontent.com/119858743/211155048-e96810fc-fbeb-4a18-8f44-9e106bdc07ad.png)
 
-* [➝Chapter2(입출력) 바로가기](/MATLAB/ProgrammingBackGround2.md)
-* [➝Chapter3(자료형과 변수) 바로가기](/MATLAB/ProgrammingBackGround3.md)
+* [➝Chapter2(자료형과 변수) 바로가기](/MATLAB/ProgrammingBackGround2.md)
+* [➝Chapter3(입출력) 바로가기](/MATLAB/ProgrammingBackGround3.md)
 * [➝Chapter4(연산자) 바로가기](/MATLAB/ProgrammingBackGround4.md)
 * [➝Chapter5(조건문) 바로가기](/MATLAB/ProgrammingBackGround5.md)
 * [➝Chapter6(반복문) 바로가기](/MATLAB/ProgrammingBackGround6.md)
