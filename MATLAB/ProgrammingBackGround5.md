@@ -150,8 +150,8 @@ end
 위의 예시는 a의 배열에서 숫자를 랜덤으로 선택한 후 case마다 출력을 다르게 한 것 입니다. x에 저장될 수 있는 값은 A의 행렬에 존재하는 숫자로 한정적이기 때문에 다음과 같이 작성할 수 있는 것입니다. 여러번 강조 했듯이, if문과 다른 점은 없으나 코드를 읽기 쉽게 쓰기 위해서 **정해진 값 중에서 입력이 랜덤하게 들어올 때** 사용합니다.
 
 * [➝Chapter1(프로그래밍이란?) 바로가기](/MATLAB/ProgrammingBackGround.md)
-* [➝Chapter2(입출력) 바로가기](/MATLAB/ProgrammingBackGround2.md)
-* [➝Chapter3(자료형과 변수) 바로가기](/MATLAB/ProgrammingBackGround3.md)
+* [➝Chapter2(자료형과 변수) 바로가기](/MATLAB/ProgrammingBackGround2.md)
+* [➝Chapter3(입출력) 바로가기](/MATLAB/ProgrammingBackGround3.md)
 * [➝Chapter4(연산자) 바로가기](/MATLAB/ProgrammingBackGround4.md)
 * [➝Chapter6(반복문) 바로가기](/MATLAB/ProgrammingBackGround6.md)
 * [➝Chapter7(분기문) 바로가기](/MATLAB/ProgrammingBackGround7.md)
