@@ -61,4 +61,94 @@ int main()
 
 ### 유클리드 알고리즘(유클리드 호제법)
 
+지금까지 약수를 구하는 방법에 대해서 알아봤는데, 그렇다면 두 개 이상의 수가 공유하는 약수인 **공약수**와 **최대 공약수**(**Greatest Common Divisor**)를 구하기 위해서는 어떻게 구해야할까? 공약수는 최대 공약수의 약수이기 때문에 사실 최대 공약수만 알고 있다면 어렵지 않게 구할 수 있을 것이다. 하지만 최대 공약수는 단순 계산으로 구하기 힘들기 때문에 **유클리드 호제법**을 사용해서 구한다.
+<br>
+두 수 A와 B 사이의 최대 공약수를 gcd(A, B)로 표현할 때 A와 B는 0이 아니고 A > B라 하면, gcd(A, B) = gcd(B, A%B)와 같다. 이를 이용하여 최대 공약수를 구하는 알고리즘은 반복문과 재귀함수로 구현할 수 있다.
+```cpp
+//반복문으로 구현
+#include <iostream>
+using namespace std;
+
+int gcd_iter(int, int);
+int main()
+{
+	cout << gcd_iter(42, 36);
+}
+
+int gcd_iter(int a, int b)	// 항상 a > b 라고 가정
+{
+	int n = a % b;
+	for (;;)
+	{
+		if (n == 0)
+		{
+			break;
+		}
+
+		a = b;
+		b = n;
+		n = a % n;
+	}
+
+	return b;
+}
+```
+```cpp
+//재귀함수로 구현
+#include <iostream>
+using namespace std;
+
+int gcd_recur(int, int);
+
+int main()
+{
+	cout << gcd_recur(42, 36);
+}
+
+int gcd_recur(int a, int b)	// 항상 a > b 라고 가정
+{
+	int n = a % b;
+
+	if (n == 0)
+	{
+		return b;
+	}
+
+	else
+	{
+		return gcd_recur(b, a % b);
+	}
+}
+```
+### 유클리드 호제법 증명
+
+gcd(A, B) = 
+$g$라 하면 A = 
+$ga$ 이고 B = 
+$gb$라 할 수 있고, 이 때 
+$a$와 
+$b$는 서로소인 정수이다.
+<br>
+이 때, A를 B로 나눈 몫을 Q라하고 나머지를 R이라 하면
+$ga = Qgb + R$로 표현할 수 있다. 따라서
+$Qgb$를 이항하면 
+$R = ga - Qgb = g(a - Qb) = gr$라고 할 수 있고, 
+$B = gb$, 
+$R = gr$이므로 
+$g$는 B와 R사이의 공약수가 된다. 여기서 
+$gcd(b,r)$이
+$k$라 하면, 다시 
+$b = kb'$이고
+$r = kr'$ 이므로
+A를 표현하면
+$A = Qgb + gr = g(Qkb' + kr') = gk(Qb' + r')$ 이므로 A와 B의 최대 공약수는 
+$gk$가 돼야한다. 이는 A와 B의 최대공약수가 
+$g$인 것에 대해서 모순이므로, 
+$R$과 
+$B$의 최대 공약수 또한 
+$r$이 성립한다.
+따라서 
+$gcd(A, B) = gcd(B, A % B)$는 참이다.
+
+
 
