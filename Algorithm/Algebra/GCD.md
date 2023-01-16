@@ -24,12 +24,6 @@ int main()
 ```cpp
 #include <iostream>
 #include <cmath>
-using namespace std;
-
-int main()
-{
-#include <iostream>
-#include <cmath>
 #include <vector>
 using namespace std;
 
