@@ -4,4 +4,4 @@
 * [Sort](/Algorithm/Sort/README.md)
 * [Search]()
 * [Data Structure]()
-* [Algebra](/Algorithm/Algebra/README.MD)
+* [Algebra](/Algorithm/Algebra/README.md)
