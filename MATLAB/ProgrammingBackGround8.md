@@ -52,6 +52,7 @@ end
 
 각 함수는 매개변수에 들어가는 값을 낮춰서 반복적으로 자기 자신보다 낮은 피보나치 수열을 구하고, 그 값을 더하고 있습니다. 재귀함수를 만들 때 조심해야할 것은 반드시 **하위의 반환 조건**만들어야 한다는 것입니다. 가장 하위의 반환 조건을 만들지 않는다면 반복문에서 무한루프를 도는 것처럼 영원히 계속 자기 자신보다 낮은 함수를 재귀 호출할 것이기 때문입니다.
 
+* [백준(재귀)](https://www.acmicpc.net/problem/10872)
 * [➝Chapter1(프로그래밍이란?) 바로가기](/MATLAB/ProgrammingBackGround.md)
 * [➝Chapter2(자료형과 변수) 바로가기](/MATLAB/ProgrammingBackGround2.md)
 * [➝Chapter3(입출력) 바로가기](/MATLAB/ProgrammingBackGround3.md)
