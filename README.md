@@ -5,7 +5,7 @@
 # 참고
 + [마크다운언어](/MarkDown/README.md)
 
-# Category
+# Categories
 + [Language](/Language/README.md)
 + [Algorithm](/Algorithm/README.md)
 + [Engine](/Engine/README.md)
