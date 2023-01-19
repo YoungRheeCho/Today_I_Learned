@@ -5,3 +5,5 @@
 * [Search](/Algorithm/Search/README.md)
 * [Data Structure](/Algorithm/DataStructure/README.md)
 * [Algebra](/Algorithm/Algebra/README.md)
+* [Dynamic Programming](/Algorithm/DP.md)
+* [Greedy Algorithm]()
