@@ -36,5 +36,5 @@ insert와 delete의 예시는 다음과 같다.
 ![delete](https://user-images.githubusercontent.com/119858743/209536044-082626df-64a5-4e6b-bfc1-bd86eeeafdc7.png)
 
 
-* [HeapSort 바로가기]()
+* [HeapSort 바로가기](/Algorithm/Sort/HeapSort)
 * [reference](https://ratsgo.github.io/data%20structure&algorithm/2017/09/27/heapsort/)
