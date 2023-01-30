@@ -13,6 +13,7 @@ int main()
 2. Segmantation Fault
 <br>
 case 1. 비교 함수
+
 ```cpp
 bool comp(int a, int b)
 {
