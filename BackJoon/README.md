@@ -11,7 +11,7 @@ int main()
 	cout.tie(NULL);
 }  
 ```
-#### 2. Segmantation Fault   
+#### 2. Segmantation Fault / 런타임 에러 (Segfault)
 * case 1. 비교 함수
 ```cpp
 bool comp(int a, int b)
