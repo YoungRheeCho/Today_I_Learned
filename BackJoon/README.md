@@ -1,6 +1,6 @@
 # 백준 문제 주의사항
 
-1. 시간초과
+#### 1. 시간초과
 ``` cpp
 int main()
 {
@@ -10,10 +10,8 @@ int main()
   cout.tie(NULL);
 }
 ```
-2. Segmantation Fault
-<br>
-case 1. 비교 함수
-
+#### 2. Segmantation Fault   
+* case 1. 비교 함수
 ```cpp
 bool comp(int a, int b)
 {
