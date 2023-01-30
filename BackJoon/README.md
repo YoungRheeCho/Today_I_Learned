@@ -15,12 +15,12 @@ int main()
 ```cpp
 bool comp(int a, int b)
 {
-	if (a < b)
-	{
-		return true;
-	}
-  //a와 b가 같은 경우에 무조건 false를 return 해야한다.
-	return false;
+  if (a < b)
+  {
+    return true;
+  }
+  // a와 b가 같은 경우에 무조건 false를 return 해야한다.
+  return false;
 }
 ```
 
