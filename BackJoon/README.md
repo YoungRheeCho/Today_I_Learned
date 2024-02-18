@@ -55,7 +55,7 @@ while(sc.hasNextInt())
 ```cpp
 string str;
 char a[100], b[100], c[100];
-getline(cin, str); // 마지막 개행문자는 버함
+getline(cin,움)
 cin.getline(b, 100);
 cin.getline(c, 100);
 ```
