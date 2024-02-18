@@ -55,7 +55,9 @@ while(sc.hasNextInt())
 ```cpp
 string str;
 char a[100], b[100], c[100];
-getline(cin,움)
+getline(cin,str); // 버퍼에 개행문자가 남지않음
+cin >> a; //  버퍼에 개행문자가 남아있음
+cin.ignore();
 cin.getline(b, 100);
 cin.getline(c, 100);
 ```
