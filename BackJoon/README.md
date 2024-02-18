@@ -54,8 +54,13 @@ while(sc.hasNextInt())
 #### 5. 공백을 포함한 문자열 입력
 ```cpp
 string str;
+char a[100], b[100], c[100];
 getline(cin, str); // 마지막 개행문자는 버퍼에 포함되지 않음
+cin >> a; // 마지막 개행문자가 버퍼에 남아있음
+cin.getline(b, 100);
+cin.getline(c, 100);
 ```
+
 # Problems
 * [자료구조/heap, priority queue/가운데를 말해요](/BackJoon/DataStructure/1665.md)
 * [기본수학/수열](/BackJoon/Math/2575.md)
