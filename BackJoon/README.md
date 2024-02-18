@@ -56,7 +56,7 @@ while(sc.hasNextInt())
 string str;
 getline(cin,str); // 버퍼에 개행문자가 남지않음
 cin >> a; //  버퍼에 개행문자가 남아있음
-cin.ignore(); // 버퍼를 비움(다음 getline 함수에 개행문자가 존재하지 않도록)
+cin.ignore(); // 버퍼를 비움(다음 getline 함수에 개행문자가 입력되지 않도록)
 cin.getline(b, 100);
 cin.getline(c, 100);
 ```
