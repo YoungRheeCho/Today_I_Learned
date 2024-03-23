@@ -4,3 +4,4 @@
 * [Tree](/Algorithm/DataStructure/Tree/README.md)
 * [Heap](/Algorithm/DataStructure/Heap.md)
 * [Priority Queue](/Algorithm/DataStructure/PriorityQueue.md)
+* [BitMask](/Algorithm/DataStructure/BitMask.md)
