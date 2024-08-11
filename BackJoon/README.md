@@ -67,6 +67,12 @@ cin.getline(c, 100);
 //뺄셈의 경우 음수가 나올 수 있기 때문에 다음과 같다
 (A - B) % C == ((A % C) - (B % C) + C) % C
 ```
+
+#### 7. 문자열 내 중복제거
+```cpp
+sort(s.begin(), s.end()); //unique 함수는 연속된 중복 원소를 맨 뒤로 보내는 함수이므로 반드시 정렬을 해준다.
+s.erase(unique(s.begin(), s.end()), s.end());
+```
 # Problems
 * [자료구조/heap, priority queue/가운데를 말해요](/BackJoon/DataStructure/1665.md)
 * [기본수학/수열](/BackJoon/Math/2575.md)
