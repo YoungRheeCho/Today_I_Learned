@@ -13,4 +13,4 @@
 + [Engine](/Engine/README.md)
 + [Backjoon](/BackJoon/README.md)
 + [MATLAB](/MATLAB)
-+ [Computer Architecture](/ComputerArchitecture/README.md)
++ [Computer Network](/ComputerNerwork/README.md)
